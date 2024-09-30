@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    position: fixed;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    color: red;
+    height: 50px;
+    size: 50px;
+}
+
+.logo img:hover {
+    height: 70px;
+}

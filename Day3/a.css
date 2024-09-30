@@ -1,0 +1,23 @@
+
+
+.heading{
+    background-color: red;
+    font-size: 50px;
+}
+
+#heading1{
+    color: blue;
+    font-size: 50px;
+}
+
+#heading2{
+    color: black;
+    font-size: 50px;
+}
+
+div p{
+    color: green;
+    font-size: 50px;
+    background-color: aqua;
+    text-align: center;
+}
