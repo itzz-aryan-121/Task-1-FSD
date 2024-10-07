@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  .logo {
+    height: 70px;
+  }
+  
+  .signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #101010;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  .signin-form label {
+    margin-bottom: 10px;
+  }
+  
+  .signin-form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .signin-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .fitem {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
